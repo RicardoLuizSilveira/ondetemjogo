@@ -34,3 +34,7 @@ view > show console
 npm
 
 npm init
+
+npm install
+
+npm start
