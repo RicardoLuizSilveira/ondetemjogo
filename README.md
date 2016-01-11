@@ -1,6 +1,10 @@
 # ondetemjogo
 Plataforma "Onde Tem Jogo?"
 
+* Instalar o Node.js
+
+bower 
+
 npm install -g bower
 
 bower init
@@ -26,3 +30,7 @@ view > show console
 - html5
 - htmlattributes
 - html snippets
+
+npm
+
+npm init
