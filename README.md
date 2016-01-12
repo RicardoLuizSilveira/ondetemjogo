@@ -1,40 +1,31 @@
-# ondetemjogo
-Plataforma "Onde Tem Jogo?"
+# Onde tem jogo?
 
-* Instalar o Node.js
+O projeto "Onde Tem Jogo?" é uma plataforma que auxilia na busca de jogos do seu time favorito em bares/lanchonetes.
+Enquanto os usuários podem encontrar o melhor horário e local para se reunir os donos de estabelecimento podem utilizar a plataforma para divulgação de suas marcas atingindo uma infinidade de clientes em potencial.
 
-bower 
+Em resumo desejamos criar **conexões!**     
+colocando as pessoas certas nos lugares certos em um momento específico de suas vidas.
 
-npm install -g bower
 
-bower init
+#### Pré requisitos
+* Node.js
+* Bower
 
-bower search angular
+_Duvidas sobre a instalação?_     
+_veja nossa [wikipage.](https://github.com/ProjetoChernobyl/ondetemjogo/wiki/Configurando-a-Infraestrutura-do-projeto)_
 
-bower info angular
+#### Intruções de configuração do ambiente de desenvolvimento
+Navegue até a raiz do projeto (pasta contendo o arquivo `package.json`) e execute os comandos abaixo:
 
-bower install angular#1.4.8 --save
-
-bower install angular-mocks#1.4.8 --save
+```JavaScript
 
 bower install
-
-sublime:
-
-acessar https://packagecontrol.io/installation#st2
-
-view > show console
-
-- Open Folder
-- Twitter Bootstrap Snippets
-- html5
-- htmlattributes
-- html snippets
-
-npm
-
-npm init
-
 npm install
+```
 
+#### Iniciando o servidor e acessando o projeto
+```JavaScript
 npm start
+```
+
+Agora abra o navegador e digite `localhost:8080/app`
