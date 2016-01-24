@@ -1,0 +1,71 @@
+body {
+			background-color: #f2f2f2;
+		}
+
+		.campos {
+			background-color: #ffcc00;
+			box-shadow: 0 10px 10px #888888;
+		}
+
+		.campos .container .form-signin {
+			float: right;
+			width: 330px;
+		}
+
+		.texto {
+			text-align: center;
+			background-color: #f2f2f2;
+		}
+
+		.form-signin {
+			max-width: 330px;
+			padding: 15px;
+			margin-left: 65%;
+		}
+
+		.form-signin .form-signin-heading {
+			font-weight: bold;
+		}
+
+		.footer {
+			background-image: url('imagens/grama.png');
+			background-repeat: repeat-x;
+			width: 100%;
+		    height: 74px;
+		    background-color: #f2f2f2;
+		}
+
+		.footer .row-fluid .col-md-12 {
+			margin-top: 44px;
+			background-color: #558f07;
+			padding-top: 5px;
+		  	min-height: 30px;
+		  	color: #ffffff;
+		  	text-align: center;
+		}
+
+		.footer .row-fluid span {
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		.navbar {
+			background-color: #f2f2f2;
+			border: none;
+		}
+
+		.navbar .container-fluid .navbar-header {
+			float: right;
+		}
+
+		.navbar .container-fluid .navbar-header .navbar-brand {
+			color: #000000;
+		}
+
+		.jumbotron .container p {
+			color: #b3b3b3;
+		}
+
+		input[type="password"] {
+			margin: 10px 0;
+		}
