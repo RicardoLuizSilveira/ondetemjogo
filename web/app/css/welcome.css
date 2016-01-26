@@ -1,0 +1,55 @@
+/*welcome page*/
+
+.search-box-style{
+    border-radius: 20px;
+}
+
+.affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+#banner-welcome-page{
+    background-color: #ffcc00;
+    background-image: url(../imagens/banner_fd.gif);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    height: 400px;
+    
+}
+
+#banner-welcome-page-content{
+    position: relative;
+    top: 200px;   
+}
+
+#body_configuration{
+    background-color: #f2f2f2;
+}
+
+#welcome {padding-top:50px;
+    height:500px;
+    text-align:  center;
+}
+#torcedor {
+    padding-top:50px;
+    height:500px;
+    color: #fff;
+    background-color: yellowgreen;
+    text-align:  center;
+}
+#time {
+    padding-top:50px;
+    height:500px;
+    color: #fff;
+    background-color: #673ab7;
+    text-align:  center;
+}
+#empresa {padding-top:50px;
+    height:500px;
+    text-align:  center;
+}
