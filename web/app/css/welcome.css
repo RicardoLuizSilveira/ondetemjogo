@@ -1,4 +1,10 @@
 /*WELCOME PAGE*/
+
+#body_configuration{
+    background-color: #f2f2f2;
+}
+
+
 /*HEADER*/
 
 .search-box-style{
@@ -28,15 +34,13 @@
     top: 200px;   
 }
 
-#body_configuration{
-    background-color: #f2f2f2;
-}
 
 #login-form{
     padding-right: 20px;
 }
 
-/* CONTENT SECTIONS */
+/* MAIN*/
+/* content section */
 #welcome {padding-top:50px;
     height:500px;
     text-align:  center;
