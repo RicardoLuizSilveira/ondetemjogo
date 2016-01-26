@@ -265,13 +265,13 @@ ul.alert-dropdown {
 .navbar-fixed-bottom {
 	background-image: url('../imagens/grama.png');
 	background-repeat: repeat-x;
-	height: 74px;
+	height: 95px;
 	background-color: transparent;
 }
 
 .navbar-fixed-bottom .navbar-text {
     height: 30px;
-    background-color: #558f07;
+    background-color: #82ce0a;
     width: 100%;
     margin: 0;
     bottom: 0;
@@ -286,6 +286,7 @@ ul.alert-dropdown {
 
 
 a.linkRodape{
+    
 	transition: all 0.5s;
 }
 
@@ -296,12 +297,12 @@ a.linkRodape{
 		padding-right:10px;
 		padding-bottom:10px;
 		text-decoration:none;
-		color:white;
+		color: black;
 		cursor:pointer;
 }
 a.linkRodape:hover{
 	text-decoration:none;
-	color:black;
+	color:darkgreen;
 }
 
 .menuExpansivo{
