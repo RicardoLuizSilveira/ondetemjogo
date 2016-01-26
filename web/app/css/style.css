@@ -67,13 +67,19 @@
 		/* Global Styles */
 
 body {
-    margin-top: 100px;
+    /** margin-top: 100px; **/
     background-color: white;
+}
+.spaceTop{
+    height: 100px;
 }
 
 @media(min-width:768px) {
     body {
-        margin-top: 50px;
+        /** margin-top: 50px; **/
+    }
+    .spaceTop{
+        height: 50px;
     }
 }
 

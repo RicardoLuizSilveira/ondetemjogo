@@ -12,23 +12,8 @@
 </head>
 <body id="body_configuration" data-spy="scroll" data-target=".navbar" data-offset="50">
 <header>
-    <!--YELLOW BANNER-->
-    <div id="banner-welcome-page" class="container-fluid banner-welcome-page">
-        <div class="row-fluid">
-            <div class="col-sd-2 col-md-2 col-lg-3"></div>
-            <div class="col-sd-8 col-md-8 col-lg-6">
-                <form id="banner-welcome-page-content" role="form">
-                    <div class="form-group">
-                        <input type="text" name="inicial_search" value="" placeholder="digite o seu time do coração" class="form-control search-box-style">
-                    </div>
-                </form>
-            </div>
-            <div class="col-sd-2 col-md-2 col-lg-3"></div>
-        </div>
-    </div>
-    
     <!--NAV MENU-->
-    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="50">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
        <!--collapse menu-->
         <div class="container-fluid">
             <div class="navbar-header">
@@ -39,57 +24,65 @@
                 </button>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
-        <!--end collapse menu-->
+                <!--end collapse menu-->
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Onde tem Jogo?</a></li>
-                    <li><a href="#torcedor">Torcedor</a></li>
-                    <li><a href="#time">Seu time</a></li>
-                    <li><a href="#empresa">Empresa</a></li>
+                    <li class="active"><a class="scroll" href="#meuTime">Onde tem Jogo?</a></li>
+                    <li><a class="scroll" href="#torcedor">Torcedor</a></li>
+                    <li><a class="scroll" href="#time">Seu time</a></li>
+                    <li><a class="scroll" href="#empresa">Empresa</a></li>
                 </ul>
                 <ul id="login-form" class="nav navbar-nav navbar-right">
                     <li><a href="#"><span class="glyphicon glyphicon-user"></span> Cadastro</a</li>
                     <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                 </ul>
-
             </div>
         </div>
-        
     </nav>
 </header>    
 <main>
-    <section>
-        <article>
-            <div id="welcome" class="container-fluid">
-              <header><h1>Plataforma "Onde tem jogo?</h1></header>
-              <p>Para você: Encontre de maneira fácil e rápida locais onde você possa ver e torcer pelo seu time de coração.</p>
-              <p>Para seus amigos: Encontre rapidamente seus amigos para juntar forças e torcer pelo seu time de coração.</p>
-              <p>Para sua empresa: Divulgue para todos o que sua empresa oferece de melhor.</p>
-              <p>"Onde tem jogo?" a plataforma para você, para seus amigos e para sua empresa!</p>
+    <section id="meuTime">
+        <div id="banner-welcome-page" class="container-fluid banner-welcome-page">
+            <div class="row-fluid">
+                <div class="col-sd-2 col-md-2 col-lg-3"></div>
+                <div class="col-sd-8 col-md-8 col-lg-6">
+                    <form id="banner-welcome-page-content" role="form">
+                        <div class="form-group">
+                            <input type="text" name="inicial_search" value="" placeholder="digite o seu time do coração" class="form-control search-box-style">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sd-2 col-md-2 col-lg-3"></div>
             </div>
-        </article>
-        <article>
-            <div id="torcedor" class="container-fluid">
-              <header><h1>Gooool!</h1></header>
+        </div>
+    </section>
+    <section id="torcedor">
+        <div  class="container-fluid">
+            <div class="row">
+              <h1>Gooool!</h1>
               <h2>Torcedor1</h2>
               <p>Para você: Encontre de maneira fácil e rápida locais onde você possa ver e torcer pelo seu time de coração.</p>
               <h2>Torcida</h2>
               <p>Para seus amigos: Encontre rapidamente seus amigos para juntar forças e torcer pelo seu time de coração.</p>
             </div>
-        </article>
-        <article>
-            <div id="time" class="container-fluid">
-              <header><h1>Todos os campeonatos no bar mais próximo de você!</h1></header>
+        </div>
+    </section>
+    <section id="time">
+        <div  class="container-fluid">
+            <div class="row">
+              <h1>Todos os campeonatos no bar mais próximo de você!</h1>
               <p>Para você: Encontre de maneira fácil e rápida locais onde você possa ver e torcer pelo seu time de coração.</p>
               <br>
               <p>Para seus amigos: Encontre rapidamente seus amigos para juntar forças e torcer pelo seu time de coração.</p>
             </div>
-        </article>
-        <article>
-            <div id="empresa" class="container-fluid">
-              <header><h1>Onde vamos assistir o jogo?</h1></header>
-              <p>Para sua empresa: Divulgue para todos o que sua empresa oferece de melhor.</p>
-            </div>
-        </article>
+        </div>
+    </section>
+    <section id="empresa">
+        <div  class="container-fluid">
+            <div class="row">
+                <header><h1>Onde vamos assistir o jogo?</h1></header>
+                <p>Para sua empresa: Divulgue para todos o que sua empresa oferece de melhor.</p>
+          </div>
+        </div>
     </section>
 </main>
 <footer>
@@ -109,5 +102,7 @@
 </footer>
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/paginate.js"></script>
 </body>
 </html>
