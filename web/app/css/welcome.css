@@ -1,0 +1,102 @@
+/*WELCOME PAGE*/
+
+#body_configuration{
+    background-color: #f2f2f2;
+}
+
+
+/*HEADER*/
+
+.search-box-style{
+    border-radius: 20px;
+}
+
+.affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+#banner-welcome-page{
+    background-color: #ffcc00;
+    background-image: url(../imagens/banner_fd.gif);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    height: 400px;
+    
+}
+
+#banner-welcome-page-content{
+    position: relative;
+    top: 200px;   
+}
+
+
+#login-form{
+    padding-right: 20px;
+}
+
+/* MAIN*/
+/* content section */
+#welcome {padding-top:50px;
+    height:500px;
+    text-align:  center;
+}
+#torcedor {
+    padding-top:50px;
+    height:700px;
+    color: #fff;
+    background-color: yellowgreen;
+    text-align:  center;
+}
+#time {
+    padding-top:50px;
+    height:700px;
+    color: #fff;
+    background-color: #673ab7;
+    text-align:  center;
+}
+#empresa {padding-top:50px;
+    height:700px;
+    text-align:  center;
+}
+
+/*FOOTER*/
+
+#footer-image{
+    height: 95px;
+    background-image: url(../imagens/grama.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+.footer-text{
+	padding-top:5px;
+	text-align:center;
+    padding-bottom: 30px;
+    background-color: #82ce0a;
+}
+
+
+a.linkRodape{
+    
+	transition: all 0.5s;
+}
+
+a.linkRodape{
+		height:40px;
+		font-size:10px;
+		padding-left:10px;
+		padding-right:10px;
+		padding-bottom:10px;
+		text-decoration:none;
+		color: black;
+		cursor:pointer;
+}
+a.linkRodape:hover{
+	text-decoration:none;
+	color:darkgreen;
+}
