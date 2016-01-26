@@ -10,57 +10,89 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/welcome.css">
 </head>
-<body id="body_configuration">
-       <div id="banner-welcome-page" class="container-fluid banner-welcome-page">
-          <div class="row-fluid">
-              <div class="col-sd-2 col-md-2 col-lg-3"></div>
-              <div class="col-sd-8 col-md-8 col-lg-6">
-                  <form id="banner-welcome-page-content" role="form">
-                     <div class="form-group">
-                      <input type="text" name="inicial_search" value="" placeholder="digite o seu time do coração" class="form-control search-box-style">
-                      </div>
-                  </form>
-              </div>
-              <div class="col-sd-2 col-md-2 col-lg-3"></div>
-          </div>
-       </div>
-       
-   <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="50">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Onde tem Jogo?</a></li>
-        <li><a href="#torcedor">Torcedor</a></li>
-        <li><a href="#time">Seu time</a></li>
-        <li><a href="#Empresa">Empresa</a></li>
-      </ul>
-</nav>    
-
-    <div id="welcome" class="container-fluid">
-      <h1>Section 1</h1>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+<body id="body_configuration" data-spy="scroll" data-target=".navbar" data-offset="50">
+<header>
+    <!--YELLOW BANNER-->
+    <div id="banner-welcome-page" class="container-fluid banner-welcome-page">
+        <div class="row-fluid">
+            <div class="col-sd-2 col-md-2 col-lg-3"></div>
+            <div class="col-sd-8 col-md-8 col-lg-6">
+                <form id="banner-welcome-page-content" role="form">
+                    <div class="form-group">
+                        <input type="text" name="inicial_search" value="" placeholder="digite o seu time do coração" class="form-control search-box-style">
+                    </div>
+                </form>
+            </div>
+            <div class="col-sd-2 col-md-2 col-lg-3"></div>
+        </div>
     </div>
-    <div id="torcedor" class="container-fluid">
-      <h1>Section 2</h1>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    
+    <!--NAV MENU-->
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="50">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Onde tem Jogo?</a></li>
+            <li><a href="#torcedor">Torcedor</a></li>
+            <li><a href="#time">Seu time</a></li>
+            <li><a href="#empresa">Empresa</a></li>
+        </ul>
+        <ul id="login-form" class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Cadastro</a</li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+    </nav>
+</header>    
+<main>
+    <section>
+        <article>
+            <div id="welcome" class="container-fluid">
+              <header><h1>Plataforma "Onde tem jogo?</h1></header>
+              <p>Para você: Encontre de maneira fácil e rápida locais onde você possa ver e torcer pelo seu time de coração.</p>
+              <p>Para seus amigos: Encontre rapidamente seus amigos para juntar forças e torcer pelo seu time de coração.</p>
+              <p>Para sua empresa: Divulgue para todos o que sua empresa oferece de melhor.</p>
+              <p>"Onde tem jogo?" a plataforma para você, para seus amigos e para sua empresa!</p>
+            </div>
+        </article>
+        <article>
+            <div id="torcedor" class="container-fluid">
+              <header><h1>Gooool!</h1></header>
+              <h2>Torcedor1</h2>
+              <p>Para você: Encontre de maneira fácil e rápida locais onde você possa ver e torcer pelo seu time de coração.</p>
+              <h2>Torcida</h2>
+              <p>Para seus amigos: Encontre rapidamente seus amigos para juntar forças e torcer pelo seu time de coração.</p>
+            </div>
+        </article>
+        <article>
+            <div id="time" class="container-fluid">
+              <header><h1>Todos os campeonatos no bar mais próximo de você!</h1></header>
+              <p>Para você: Encontre de maneira fácil e rápida locais onde você possa ver e torcer pelo seu time de coração.</p>
+              <br>
+              <p>Para seus amigos: Encontre rapidamente seus amigos para juntar forças e torcer pelo seu time de coração.</p>
+            </div>
+        </article>
+        <article>
+            <div id="empresa" class="container-fluid">
+              <header><h1>Onde vamos assistir o jogo?</h1></header>
+              <p>Para sua empresa: Divulgue para todos o que sua empresa oferece de melhor.</p>
+            </div>
+        </article>
+    </section>
+</main>
+<footer>
+    <div id="footer-image" class="container-fluid"></div>
+    <div class="container-fluid footer-text">
+        <div class="row-fluid">
+            <div>
+                <a class="linkRodape">2016 ProjetoChernoby!</a> 
+                <a class="linkRodape">Termos de Uso</a> 
+                <a class="linkRodape">Privacidade</a> 
+                <a class="linkRodape">Segurança</a> 
+                <a class="linkRodape">Contato</a> 
+                <a class="linkRodape">Ajuda</a>
+            </div>
+        </div>
     </div>
-    <div id="time" class="container-fluid">
-      <h1>Section 3</h1>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    </div>
-    <div id="empresa" class="container-fluid">
-      <h1>Section 4 Submenu 1</h1>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    </div>
-
-       
-       
-    <footer>
-        
-    </footer>
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+</footer>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
