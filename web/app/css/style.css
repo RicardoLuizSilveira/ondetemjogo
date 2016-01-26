@@ -170,8 +170,24 @@ ul.alert-dropdown {
     width: 200px;
 }
 
-/* Side Navigation */
 
+.jumbotron.campos{
+    background: #ffcc00 url("../imagens/banner_fd.gif") repeat-x top left;
+}
+
+.imgLoginAlternativo{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.imgLoginAlternativo span{
+    transition: all 0.5s;
+    height: 32px;
+    width: 32px;
+    display: block;
+}
+
+/* Side Navigation */
 @media(min-width:768px) {
     .side-nav {
         position: fixed;
@@ -182,7 +198,7 @@ ul.alert-dropdown {
         border: none;
         border-radius: 0;
         overflow-y: auto;
-        background-color: #ffcc00;
+		background: #ffcc00 url("../imagens/banner_fd.gif") repeat-y right bottom;
         bottom: 0;
         overflow-x: hidden;
         padding-bottom: 40px;
@@ -261,4 +277,75 @@ ul.alert-dropdown {
     bottom: 0;
     left: 0;
     position: absolute;
+}
+
+.centerRodape{
+	padding-top:5px;
+	text-align:center;
+}
+
+
+a.linkRodape{
+	transition: all 0.5s;
+}
+
+a.linkRodape{
+		height:40px;
+		font-size:10px;
+		padding-left:10px;
+		padding-right:10px;
+		padding-bottom:10px;
+		text-decoration:none;
+		color:white;
+		cursor:pointer;
+}
+a.linkRodape:hover{
+	text-decoration:none;
+	color:black;
+}
+
+.menuExpansivo{
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+
+.collapse.in>li>a{
+    margin-top: 3px;
+    border-left: 3px dotted black;
+    padding-left: 10px;
+    margin-left: 50px;
+}
+
+@media(max-width:485px) {
+    .navbar-fixed-bottom .navbar-text{
+        height: 60px;
+    }
+    .navbar-fixed-bottom{
+        height: 104px;
+    }
+}
+
+#iconTwitter{
+    background-image: url('../imagens/twitter02_dark.png');   
+}
+
+#iconFacebook{
+    background-image: url('../imagens/facebook_dark.png');   
+}
+
+#iconGoogle{
+    background-image: url('../imagens/google_dark.png');   
+}
+
+#iconTwitter:hover{
+    background-image: url('../imagens/twitter02_color.png');   
+}
+
+#iconFacebook:hover{
+    background-image: url('../imagens/facebook_color.png');   
+}
+
+#iconGoogle:hover{
+    background-image: url('../imagens/google_color.png');   
 }
