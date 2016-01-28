@@ -9,24 +9,40 @@ colocando as pessoas certas nos lugares certos em um momento específico de suas
 
 
 #### Pré requisitos
+
 * Node.js
-* Bower
 
-_Duvidas sobre a instalação?_     
-_veja nossa [wikipage.](https://github.com/ProjetoChernobyl/ondetemjogo/wiki/Configurando-a-Infraestrutura-do-projeto)_
+Download em https://nodejs.org/en/
 
-#### Intruções de configuração do ambiente de desenvolvimento
-Navegue até a raiz do projeto (pasta contendo o arquivo `package.json`) e execute os comandos abaixo:
+#### Configuração do ambiente de desenvolvimento
+
+Navegue até o diretório `web` (pasta contendo o arquivo `package.json`) e execute os comandos abaixo:
 
 ```JavaScript
 
-bower install
-npm install
+  bower install
+  npm install
+
 ```
 
 #### Iniciando o servidor e acessando o projeto
+
 ```JavaScript
-npm start
+  npm start
 ```
 
-Agora abra o navegador e digite `localhost:8080/app`
+Agora abra o navegador e digite `http:/localhost:8080/app`
+
+Caso queira acessar externamente, alterar o valor `localhost` pelo seu `endereço de IP` no arquivo `package.json` conforme exemplo a seguir.
+
+De:
+
+```JavaScript
+  "start": "http-server -a localhost -p 8000 -c-1",
+```
+
+Para:
+
+```JavaScript
+  "start": "http-server -a 192.168.1.23 -p 8000 -c-1",
+```
