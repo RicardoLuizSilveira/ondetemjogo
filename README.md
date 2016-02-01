@@ -1,4 +1,4 @@
-# Onde tem jogo?
+# Onde tem jogo? ![Travis CI](https://travis-ci.org/ProjetoChernobyl/ondetemjogo.svg?branch=master)
 http://projetochernobyl.github.io/ondetemjogo
 
 O projeto "Onde Tem Jogo?" é uma plataforma que auxilia na busca de jogos do seu time favorito em bares/lanchonetes.
