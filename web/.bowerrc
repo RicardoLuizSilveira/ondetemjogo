@@ -1,3 +1,11 @@
 {
   "directory": "app/lib"
+  "analytics": false,
+  "timeout": 120000,
+  "registry": {
+    "search": [
+      "http://localhost:8000",
+      "http://ondetemjogo.herokuapp.com"
+    ]
+  }
 }
