@@ -3,6 +3,7 @@
   "version": "1.0.0",  
   "repository": "https://github.com/ProjetoChernobyl/ondetemjogo",
   "description": "Plataforma Onde Tem Jogo?",
+  "main": "server.js",
   "engines": {
     "node": "5.5.0",
     "npm": "3.3.12"
