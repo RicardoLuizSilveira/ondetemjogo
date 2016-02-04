@@ -6,6 +6,7 @@ before_install:
 before_script:
 - export DISPLAY=:99.0
 - sh -e /etc/init.d/xvfb start
+- npm cache clean
 - npm start > /dev/null &
 - npm run update-webdriver
 - sleep 1
