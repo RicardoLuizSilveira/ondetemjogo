@@ -3,7 +3,7 @@
   "version": "1.0.0",  
   "repository": "https://github.com/ProjetoChernobyl/ondetemjogo",
   "description": "Plataforma Onde Tem Jogo?",
-  "main": "server.js",
+  "main": "",
   "engines": {
     "node": "5.5.0",
     "npm": "3.3.12"
@@ -28,7 +28,7 @@
     "postinstall": "bower install",
 
     "prestart": "npm install",
-    "start": "node server.js",
+    "start": "http-server -a localhost -p 8000 -c-1",
 
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
