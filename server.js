@@ -1,22 +1,14 @@
-var http = require('http');
-var dispatcher = require('httpdispatcher');
+var connect = require('connect');
+var serveStatic = require('serve-static');
 var env = process.env;
+var bind = (env.BIND || 'localhost');
+var port = (env.PORT || 5000);
 
 console.log("Starting Server");
-console.log("Listening to Port", env.PORT);
-console.log("Listening to Address", env.BIND);
+console.log("Listening to Port", port);
+console.log("Listening to Address", bind);
 
-function handleRequest(request, response){
-	 try {
-        //log the request on console
-        console.log(request.url);
-        //Disptach
-        dispatcher.dispatch(request, response);
-    } catch(err) {
-        console.log(err);
-    }
-}
-
-http.createServer(handleRequest).listen(process.env.PORT);
+connect().use(serveStatic(__dirname+'/app')).listen(port);
 
 console.log("Server Started");
+
