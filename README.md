@@ -1,5 +1,6 @@
 # Onde tem jogo? ![Travis CI](https://travis-ci.org/ProjetoChernobyl/ondetemjogo.svg?branch=master)
-http://projetochernobyl.github.io/ondetemjogo
+
+Clique [aqui](https://ondetemjogo.herokuapp.com/) para acessar a plataforma!
 
 O projeto "Onde Tem Jogo?" é uma plataforma que auxilia na busca de jogos do seu time favorito em bares/lanchonetes.
 Enquanto os usuários podem encontrar o melhor horário e local para se reunir os donos de estabelecimento podem utilizar a plataforma para divulgação de suas marcas atingindo uma infinidade de clientes em potencial.
@@ -12,7 +13,7 @@ colocando as pessoas certas nos lugares certos em um momento específico de suas
 
 * Node.js
 
-Download em https://nodejs.org/en/
+Download em `https://nodejs.org/en/`
 
 #### Configuração do ambiente de desenvolvimento
 
@@ -20,7 +21,6 @@ Navegue até o diretório `web` (pasta contendo o arquivo `package.json`) e exec
 
 ```JavaScript
 
-  bower install
   npm install
 
 ```
@@ -31,18 +31,4 @@ Navegue até o diretório `web` (pasta contendo o arquivo `package.json`) e exec
   npm start
 ```
 
-Agora abra o navegador e digite `http:/localhost:8080/app`
-
-Caso queira acessar externamente, alterar o valor `localhost` pelo seu `endereço de IP` no arquivo `package.json` conforme exemplo a seguir.
-
-De:
-
-```JavaScript
-  "start": "http-server -a localhost -p 8000 -c-1",
-```
-
-Para:
-
-```JavaScript
-  "start": "http-server -a 192.168.1.23 -p 8000 -c-1",
-```
+Agora abra o navegador e digite `http:/localhost:8000/`
