@@ -9,6 +9,9 @@
 
 .search-box-style{
     border-radius: 20px;
+    height: 40px;
+    font-size: 20px;
+    vertical-align: middle;
 }
 
 .affix {
@@ -50,8 +53,7 @@
 #torcedor {
     padding-top:100px;
     height:700px;
-    color: #fff;
-    background-color: yellowgreen;
+    background-color: #f2f2f2;
     text-align:  center;
 }
 #time {
