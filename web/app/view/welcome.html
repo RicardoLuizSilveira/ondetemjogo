@@ -29,12 +29,16 @@
 <section id="meuTime">
 	<div id="banner-welcome-page" class="container-fluid banner-welcome-page">
 		<div class="row-fluid">
-			<div class="col-sd-2 col-md-2 col-lg-3"></div>
-			<div class="col-sd-8 col-md-8 col-lg-6">
+			<div class="col-sd-1 col-md-1 col-lg-1"></div>
+			<div class="col-sd-10 col-md-10 col-lg-10">
 				<form id="banner-welcome-page-content" role="form">
-					<div class="form-group">
-						<input type="text" name="inicial_search" value="" placeholder="Digite aqui o nome do seu time do coração" class="form-control search-box-style">
+					<div class="form-group" ng-controller="DefaultTimes">
+					<label for="pesquisaTime" id="lblPesquisa">Precisando de ajuda para encontrar um evento?</label>
+						<input type="text" id="pesquisaTime" auto-complete ui-items="names" ng-model="selected" name="inicial_search" value="" placeholder="Digite aqui o nome do seu time do coração" class="form-control search-box-style"/>
+						 <span class="glyphicon glyphicon-search lupaPesquisaSearch"></span>
 					</div>
+        			<!-- <input auto-complete ui-items="names" ng-model="selected">
+        			selected = {{selected}} -->
 				</form>
 			</div>
 			<div class="col-sd-2 col-md-2 col-lg-3"></div>
@@ -45,7 +49,7 @@
 	<div  class="container-fluid">
 		<div class="row">
 		  <h1>Gooool!</h1>
-		  <h2>Torcedor1</h2>
+		  <h2>Travis + Heroku working fine</h2>
 		  <p>Para você: Encontre de maneira fácil e rápida locais onde você possa ver e torcer pelo seu time de coração.</p>
 		  <h2>Torcida</h2>
 		  <p>Para seus amigos: Encontre rapidamente seus amigos para juntar forças e torcer pelo seu time de coração.</p>

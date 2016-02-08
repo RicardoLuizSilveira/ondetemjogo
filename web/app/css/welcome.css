@@ -28,7 +28,7 @@
     background-image: url(../imagens/banner_fd.gif);
     background-position: bottom;
     background-repeat: repeat-x;
-    height: 400px;
+    height: 120%;
     
 }
 
@@ -67,7 +67,50 @@
     height:700px;
     text-align:  center;
 }
+#lblPesquisa{
+	margin-top: -35px;
+	font-size: 12px;
+	float: left;
+    padding-left: 20px;
+}
+#pesquisaTime{
+	font-size: 12px;
+}	
+.lupaPesquisaSearch{
+	position: absolute;
+	top: 15px;
+	right: 20px;
+}
+.
+@media(min-width:426px) {
+	#lblPesquisa{
+		font-size: 14px;
+	}
+	#pesquisaTime{
+		font-size: 14px;
+	}
+}
 
+
+
+.navbar-inverse.navbar-fixed-top.inversorCorTop {
+    background-color: #FC0 !important;
+}
+.navbar-inverse.navbar-fixed-top.inversorCorTop li.active a {
+	background-color: #FC0 !important;
+}
+.navbar-inverse.navbar-fixed-top.inversorCorTop li.active a {
+    color: white !important;
+}
+
+
+.navbar-inverse.navbar-fixed-top.inversorCorTop a {
+    color: black !important;
+}
+
+.navbar-inverse.navbar-fixed-top.inversorCorTop a:hover {
+    color: white !important;
+}
 /*FOOTER*/
 
 #footer-image{
