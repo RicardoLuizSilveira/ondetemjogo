@@ -8,6 +8,25 @@ angular.module("ondetemjogo").controller("loginController", function ($scope) {
 });
 
 angular.module("ondetemjogo").controller("signupController", function ($scope) {
+	$scope.signup = {};
+
+	$scope.formValidation = function(signup){
+		var _regExpEmail = /\w.*@\w*\.\w{3}/;
+		var _emailValidation = _regExpEmail.test(signup.email);
+		var _passwordCompare = signup.password == signup.passwordConfirmation;
+		var _passwordLength = signup.password || '';
+		var _passwordValidation = _passwordLength && _passwordCompare;
+		return !_emailValidation || !_passwordValidation;
+	}
+
+	$scope.efetuarCadastro = function(signup){
+		var userData = {
+				email: signup.email,
+				password: signup.password
+		};
+		console.log(userData);
+		$scope.signup = {};
+	}
 
 });
 
