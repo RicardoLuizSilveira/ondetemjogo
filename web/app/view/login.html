@@ -1,38 +1,27 @@
-	<nav class="navbar navbar-default navbar-login">
-		<div class="container-fluid">
-			<div class="navbar-header navbar-header-login">
-				<span class="navbar-brand">Faça login usando</span>
-				<a class="navbar-brand imgLoginAlternativo" href="#">
-					<span id="iconTwitter"></span>
-				</a>
-				<a class="navbar-brand imgLoginAlternativo" href="#">
-					<span id="iconFacebook"></span>
-				</a>
-				<a class="navbar-brand imgLoginAlternativo" href="#">
-					<span id="iconGoogle"></span>
-				</a>
-			</div>
-		</div>
-	</nav>
+<div id="signin-form" class="row-fluid form-signin-signup">
+  <div class="col-sd-4 col-md-6 col-lg-7"></div>
+  <div class="col-sd-6 col-md-4 col-lg-3">
+    <form>
+      <span class="form-signin-heading"><h4>Acessar plataforma</h4></span>
+      <input type="text" name="email" value="" placeholder="digite seu e-mail" class="form-control" ng-model="login.email" required>
+      <input type="password" name="senha" value="" placeholder="digite sua senha" class="form-control" ng-model="login.senha" required>
+      <button class="btn btn-lg btn-primary btn-block" type="submit" ng-click="efetuarLogin(login)">Cadastrar</button>
 
-	<div class="jumbotron campos">
-		<form class="form-signin">
-			<span class="form-signin-heading">Acessar plataforma</span>
-			<br />
-			<span class="form-signin-heading"><a>Ainda não é cadastrado?</a></span>
-			<input type="text" name="email" value="" placeholder="digite seu e-mail" class="form-control" ng-model="login.email" required>
-			<input type="password" name="senha" value="" placeholder="digite sua senha" class="form-control" ng-model="login.senha" required>
-			<button class="btn btn-lg btn-primary btn-block" type="submit" ng-click="efetuarLogin(login)">Entrar</button>
-		</form>
-	</div>
+    <div>
+      <br><span>Faça login usando</span>
+      <br>
+      <a class="navbar-brand imgLoginAlternativo" href="#">
+        <span id="iconTwitter"></span>
+      </a>
+      <a class="navbar-brand imgLoginAlternativo" href="#">
+        <span id="iconFacebook"></span>
+      </a>
+      <a class="navbar-brand imgLoginAlternativo" href="#">
+        <span id="iconGoogle"></span>
+      </a>
+  </div>
+  </form>
+  </div>
 
-	<div class="jumbotron texto">
-		<div class="container">
-          <h2>Plataforma "Onde tem jogo?"</h2>
-          <br/>
-          <p class="lead">Para você: Encontre de maneira fácil e rápida locais onde você possa ver e torcer pelo seu time de coração.</p>
-          <p class="lead">Para seus amigos: Encontre rapidamente seus amigos para juntar forças e torcer pelo seu time de coração.</p>
-          <p class="lead">Para sua empresa: Divulgue para todos o que sua empresa oferece de melhor.</p>
-          <p class="lead">"Onde tem jogo?" a plataforma para você, para seus amigos e para sua empresa!</p>
-        </div>
-    </div>
+  <div class="col-sd-2 col-md-2 col-lg-2"></div>
+</div>

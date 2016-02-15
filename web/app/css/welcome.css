@@ -29,12 +29,12 @@
     background-position: bottom;
     background-repeat: repeat-x;
     height: 120%;
-    
+
 }
 
 #banner-welcome-page-content{
     position: relative;
-    top: 200px;   
+    top: 200px;
 }
 
 
@@ -71,11 +71,11 @@
 	margin-top: -35px;
 	font-size: 12px;
 	float: left;
-    padding-left: 20px;
+  padding-left: 20px;
 }
 #pesquisaTime{
 	font-size: 12px;
-}	
+}
 .lupaPesquisaSearch{
 	position: absolute;
 	top: 15px;
@@ -94,10 +94,10 @@
 
 
 .navbar-inverse.navbar-fixed-top.inversorCorTop {
-    background-color: #FC0 !important;
+    background-color: rgba(255, 0, 0, 0); !important;
 }
 .navbar-inverse.navbar-fixed-top.inversorCorTop li.active a {
-	background-color: #FC0 !important;
+	/* background-color: rgba(255, 0, 0, 0); !important; */
 }
 .navbar-inverse.navbar-fixed-top.inversorCorTop li.active a {
     color: white !important;
@@ -110,6 +110,7 @@
 
 .navbar-inverse.navbar-fixed-top.inversorCorTop a:hover {
     color: white !important;
+    text-shadow: 2px 2px 8px #ffffff;
 }
 /*FOOTER*/
 
@@ -129,7 +130,7 @@
 
 
 a.linkRodape{
-    
+
 	transition: all 0.5s;
 }
 
@@ -164,4 +165,3 @@ main{
     margin-top: -20px;
     background-color: white;
 }
-

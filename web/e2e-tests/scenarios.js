@@ -9,4 +9,9 @@ describe("ondetemjogo", function() {
     expect(browser.getLocationAbsUrl()).toMatch("/login");
   });
 
+  it('should navigate to signup', function() {
+    browser.get('#/signup');
+    expect(browser.getLocationAbsUrl()).toMatch("/signup");
+  });
+
 });

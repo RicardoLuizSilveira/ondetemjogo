@@ -10,6 +10,11 @@ angular.module("ondetemjogo").config(function ($routeProvider) {
 		controller: "loginController"
 	});
 
+	$routeProvider.when("/signup", {
+		templateUrl: "view/signup.html",
+		controller: "signupController"
+	});
+
 	$routeProvider.when("/dashboard", {
 		templateUrl: "view/dashboard.html",
 		controller: "dashboardController"

@@ -1,7 +1,3 @@
-		body {
-			background-color: #f2f2f2;
-		}
-
 		.campos {
 			background-color: #ffcc00;
 			box-shadow: 0 10px 10px #888888;
@@ -68,7 +64,7 @@
 
 body {
     /** margin-top: 100px; **/
-    background-color: white;
+    background-color: #f2f2f2;
 }
 .spaceTop{
     height: 100px;
@@ -179,12 +175,23 @@ ul.alert-dropdown {
 
 .jumbotron.campos{
     background: #ffcc00 url("../imagens/banner_fd.gif") repeat-x top left;
+
+}
+
+.form-signin-signup{
+	margin-top: 250px;
+	padding: 10px;
+	height: 330px;
+	background-color: #ffcc00;
+	background-image: url(../imagens/banner_fd.gif);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	box-shadow: 0 10px 10px #888888;
 }
 
 .imgLoginAlternativo{
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .imgLoginAlternativo span{
     transition: all 0.5s;
@@ -249,7 +256,7 @@ ul.alert-dropdown {
 	font-weight: bold;
 }
 
-.navbar-header .navbar-nav > li > a:hover, 
+.navbar-header .navbar-nav > li > a:hover,
 .navbar-header .navbar-nav > li > a:focus,
 .navbar-header .navbar-collapse > li[class="active"]  {
     background-color: #ffcc00;
@@ -281,7 +288,7 @@ ul.alert-dropdown {
 }
 
 
-a.linkRodape{    
+a.linkRodape{
 	transition: all 0.5s;
 }
 
@@ -323,25 +330,25 @@ a.linkRodape:hover{
 }
 
 #iconTwitter{
-    background-image: url('../imagens/twitter02_dark.png');   
+    background-image: url('../imagens/twitter02_dark.png');
 }
 
 #iconFacebook{
-    background-image: url('../imagens/facebook_dark.png');   
+    background-image: url('../imagens/facebook_dark.png');
 }
 
 #iconGoogle{
-    background-image: url('../imagens/google_dark.png');   
+    background-image: url('../imagens/google_dark.png');
 }
 
 #iconTwitter:hover{
-    background-image: url('../imagens/twitter02_color.png');   
+    background-image: url('../imagens/twitter02_color.png');
 }
 
 #iconFacebook:hover{
-    background-image: url('../imagens/facebook_color.png');   
+    background-image: url('../imagens/facebook_color.png');
 }
 
 #iconGoogle:hover{
-    background-image: url('../imagens/google_color.png');   
+    background-image: url('../imagens/google_color.png');
 }
